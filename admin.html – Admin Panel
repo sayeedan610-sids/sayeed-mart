@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Panel - Sayeed Mart</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+</head>
+<body class="center">
+
+<h2>Admin Panel - Add Products</h2>
+<input id="pname" placeholder="Product Name"><br><br>
+<input id="pprice" type="number" placeholder="Price"><br><br>
+<input id="pimg" placeholder="Image URL"><br><br>
+<button onclick="addProduct()">Add Product</button>
+
+<script src="script.js"></script>
+</body>
+</html>
