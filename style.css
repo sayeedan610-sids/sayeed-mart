@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #111;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: #111;
+    color: white;
+    cursor: pointer;
+}
+
+/* Products */
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Support & About */
+.support, .about {
+    padding: 40px;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Feedback */
+.feedback {
+    padding: 40px;
+    text-align: center;
+}
+
+.feedback textarea {
+    width: 300px;
+    height: 80px;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.email-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 15px;
+    background: orange;
+    color: black;
+    text-decoration: none;
+}
